@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width='device-width', initial-scale=1.0">
+  <title>SHA2_256 HASH</title>
+  <link rel="stylesheet" href="styleme.css">
+
+  <link rel="stylesheet" href="extra.css">
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="https://pyscript.net/releases/2024.3.1/core.css">
+  <script type="module" src="https://pyscript.net/releases/2024.3.1/core.js"></script>
+  <script src="https://kit.fontawesome.com/b0d93850a5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+        <h1><span>SHA2_256</span>HASH</h1>
+        <p>You will get your hash just in 0.1 sec</p>
+
+        <div class="container">
+              <h1>SHA2_256 GENERATOR</h1>
+
+              <div id="shake_256">
+                <input type="text" id="shake_256_input" placeholder="Your Message..." />
+                <button py-click="shake256_converter" id="generatE">Generate SHA3_256</button> 
+
+                <i class="fa-solid fa-circle-arrow-right fa-beat fa-sm" style="color: #1dd44bcc;"></i>
+
+                <textarea class="output" id="shake_256_output" cols="40" rows="3" placeholder="Your Hash Key..."></textarea>
+                
+            
+              </div> 
+
+             
+        </div>
+
+
+        <script type="py" src="./maincode.py"></script>
+                      
+</body>
+</html>
+
+
+
+
